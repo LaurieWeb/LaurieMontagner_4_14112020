@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:#1F1F1F;
 }
 
 .d-bloc .a-btn:hover,
@@ -141,6 +141,7 @@ a:hover {
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -150,6 +151,10 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.icon-md:focus {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -739,6 +744,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.footer__credits {
+    color: #1F1F1F!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -780,12 +789,19 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:#1F1F1F!important;
+    z-index: 20;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #1F1F1F!important;
+    color: #F3976C!important;
+}
+
+
+.btn-atomic-tangerine:focus {
+    background: #1F1F1F!important;
+    color: #F3976C!important;
 }
 
 .ltc-white {
@@ -822,7 +838,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -871,10 +887,6 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {

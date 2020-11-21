@@ -339,7 +339,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #eee;
 }
 
 .navbar-toggle {
@@ -448,6 +448,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
 .btn {
@@ -482,6 +483,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 15px;
 }
 
 .icon-lg {
@@ -707,6 +709,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 h2 {
@@ -744,8 +747,42 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.findus {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.form__row {
+    width: 90%;
+    margin: auto;
+}
+
+.footer__row {
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.footer__line {
+    color: #1F1F1F!important;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
 .footer__credits {
     color: #1F1F1F!important;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.footer__credits__link {
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 .portfolio-thumb {
@@ -784,7 +821,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #1F1F1F!important;
 }
 
 .btn-atomic-tangerine {

@@ -1660,7 +1660,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    display: block;
 }
 
 .text-justify {
@@ -2068,7 +2069,9 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    margin: auto;
+    width: 75%;
 }
 
 .col-xs-1,
@@ -5067,7 +5070,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    width: 100%;
 }
 
 @media (min-width:768px) {

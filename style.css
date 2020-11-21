@@ -49,7 +49,7 @@ a:hover {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 30px;
 }
 
 .bloc-sm {
@@ -152,6 +152,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+    transition: 250ms;
 }
 
 .icon-md:focus {
@@ -747,6 +748,40 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.main__title {
+    color: #F3976C!important;
+    text-shadow: 0 0 8px black;
+}
+
+.section__title {
+    margin: 0px;
+    text-align: center;
+}
+
+.services__intro {
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    margin-bottom: 5px;
+}
+
+figcaption {
+    margin: auto;
+    width: 75%;
+}
+
+.mission__text {
+    color: #F3976C!important;
+    text-shadow: 0 0 3px black;
+    font-size: 16px;
+}
+
 .findus {
     text-align: center;
     margin-top: 40px;
@@ -787,7 +822,15 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
+}
+
+.portfolio__text {
+    max-width: 270px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .portfolio-row {
@@ -934,6 +977,19 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
+    }
+    .services__intro {
+        width: 80%;
+    }
+
+    .mission__bloc {
+        width: 100%;
+    }
+
+    .portfolio-row {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     }
 }
 

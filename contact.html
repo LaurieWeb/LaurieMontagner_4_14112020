@@ -12,7 +12,7 @@
 </script>
 <!-- Analytics END -->
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Contacter La Chouette Agence, votre entreprise de webdesign à Lyon pour en savoir plus sur ses services de développement de sites internet et portfolio pour professionnels et particuliers.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
     
@@ -39,7 +39,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" width="100" height="100" alt="Logo de La Chouette Agence, avec un chouette géométrique et le nom La Chouette Agence." height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button id="nav-toggle" type="button" aria-label="Menu" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
@@ -88,26 +88,27 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input aria-label="nom" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input aria-label="Adresse email" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" required id="input_504" />
+						<input aria-label="Comment nous avez-vous connu ?" class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea aria-label="Brief de votre projet" id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button aria-label="Envoyer" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 				</form>			

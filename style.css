@@ -774,6 +774,7 @@ blockquote {
 figcaption {
     margin: auto;
     width: 75%;
+    color: #1F1F1F!important;
 }
 
 .mission__text {
@@ -990,7 +991,7 @@ figcaption {
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    }
+
 }
 
 @media (max-width: 767px) {
